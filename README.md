@@ -102,9 +102,8 @@ Trained and evaluated multiple model architectures:
 - **Version Control:** Professional Git workflow and repository organization
 - **Result Interpretation:** Moving beyond accuracy metrics to economic significance
 
-## 🚀 How to Run This Project
+## 📊 Data Source
 
-### Prerequisites
-```bash
-Python 3.8+
-pip install -r requirements.txt
+This project uses high-frequency Limit Order Book data from **LOBSTER** (https://lobsterdata.com).
+
+**The data files are not included in this repository.** To run this project, you must download the data separately and place it in the `data/` folder. See the detailed instructions in `data/README.txt`.
